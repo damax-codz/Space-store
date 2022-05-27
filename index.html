@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container">
+          <a class="navbar-brand" href="#"><img src="./images/space.png" alt="logo" height="40">Space Store</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Books</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                 Pricing
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Basic</a></li>
+                  <li><a class="dropdown-item" href="#">Standard</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Premium</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">cart</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- carousel -->
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./images/spacebook1.jpg" class="d-block w-100" alt="space" height="450">
+          </div>
+          <div class="carousel-item">
+            <img src="./images/spacebook.jpg" class="d-block w-100" alt="space" height="450" >
+          </div>
+          <div class="carousel-item">
+            <img src="./images/spacebook2.jpg" class="d-block w-100" alt="space" height="450">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div> 
+
+<div class="container pt-4 mt-3">
+
+  <!-- about -->
+  <div class="row">
+    <div class="col-lg mt-3">
+      <h3 class="mb-4">Hello!</h3>
+      <img src="./images/spacebook3.jpg" class="img-fluid mb-4 rounded" alt="book" />
+      <p>Welcome to Space store where you can get all sorts of resources for space study </p>
+      
+    </div>
+    <div class="col-lg mt-3">
+     <h3 class="mb-4">Space store</h3>
+     <p>This magnificent volume offers a rich visual tour of the planets in our solar system. More than 200 breathtaking photographs from the archives of NASA are paired with extended captions detailing the science behind some of our cosmic neighborhood's most extraordinary phenomena. Images of newly </p>
+    </div>
+    <div class="col-lg mt-3">
+      <h3 class="mb-4">Upcoming videos</h3>
+      <div class="list-group">
+        <a href="#" class="list-group-item list-group-item-action"><strong class="text-primary">Jupiter today</strong>: Greatest discoveries in jupiter </a>
+        <a href="#" class="list-group-item list-group-item-action"><strong class="text-primary">Earth and space</strong>:photographs from archives of NASA</a>
+        <a href="#" class="list-group-item list-group-item-action"><strong class="text-success">Space Atlas</strong>:Second edition</a>
+        <a href="#" class="list-group-item list-group-item-action"><strong class="text-primary">The planets</strong>: Visual guide to our solar system</a>
+        <a class="list-group-item list-group-item-action "><strong class="text-primary">Galaxies</strong>: Birth and destiny of our universe</a>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- videos -->
+  <h1 class="display-4 text-center text-muted my-4">Videos</h1>
+  <div class="row">
+    <div class="col-md-6 col-lg-4">
+      <div class="card mb-3">
+        <img src="./images/junk.jpg" class="card-img-top" alt="junk">
+        <div class="card-body">
+          <h5 class="card-title mb-4">NASA release shocking footage showing space junk </h5>
+          <p class="card-text"> watch this video to see footages of space junk captured by NASA</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6 col-lg-4">
+      <div class="card mb-3">
+        <img src="./images/victor.jpg" class="card-img-top" alt="junk">
+        <div class="card-body">
+          <h5 class="card-title mb-4">Astronaut first video goes viral</h5>
+          <p class="card-text"> NASA astronaut victor Glovers first video of earth from space station gos viral </p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6 col-lg-4">
+      <div class="card mb-3">
+        <img src="./images/wash.jpg" class="card-img-top" alt="junk">
+        <div class="card-body">
+          <h5 class="card-title mb-4">How to wash your hair on space </h5>
+          <p class="card-text"> watch this video to see video of astronaut washing haor in space station</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6 col-lg-4">
+      <div class="card mb-3">
+        <img src="./images/footage.jpg" class="card-img-top" alt="junk">
+        <div class="card-body">
+          <h5 class="card-title mb-4">stock footage of space </h5>
+          <p class="card-text"> view stock images captured from NASA space station </p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6 col-lg-4">
+      <div class="card mb-3">
+        <img src="./images/mars.jpg" class="card-img-top" alt="junk">
+        <div class="card-body">
+          <h5 class="card-title mb-4">Astronaut lesson for kids  </h5>
+          <p class="card-text"> Astronauts are people that get to fly into and explore space. Explore what astronaut means and the job of an astronaut. Finally, discover famous astronauts and what it takes to be one.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6 col-lg-4">
+      <div class="card mb-3">
+        <img src="./images/earth.jpg" class="card-img-top" alt="junk">
+        <div class="card-body">
+          <h5 class="card-title mb-4">Earth by lil dicky </h5>
+          <p class="card-text"> What up, world?
+            It's your boy, just one of the guys down here
+            Well, I could be more specific
+            Uh, I'm a human…</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- newsletter -->
+  <div class="row py-4 text-muted">
+    <div class="col-md">
+      <p><strong>Weekly newsletter</strong></p>
+      <p>I send one email every week  about new events, informations about our universe, Exclusive valuable content you wont find anywhere else</p>
+      
+    </div>
+    <div class="col-md col-lg-5 ms-auto">
+      <p><strong>stay up to date with Space Store</strong></p>
+      <div class="input-group mb-3">
+        <input type="text" class="form-control" placeholder="Email Address" aria-label="Email Address" aria-describedby="button-addon2">
+        <button class="btn btn-primary" type="button" id="button-addon2">Send</button>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- footer -->
+  <div class="row py-4">
+    <div class="col-md-7">
+      <ul class="nav">
+        <li class="nav-item">
+          <a class="nav-link " aria-current="page" href="#">Other Products </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Blog</a>
+        </li>
+        <!-- Example single danger button -->
+<div class="btn-group dropup">
+  <button type="button" class="btn btn-outline-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+    Social media
+  </button>
+  <ul class="dropdown-menu">
+    <li><a class="dropdown-item" target="_blank" href="www.youtube.com">Youtube</a></li>
+    <li><a class="dropdown-item" target="_blank" href="www.facebook.com">Facebook</a></li>
+    <li><a class="dropdown-item" target="_blank" href="www.twitter.com">Twitter</a></li>
+    <li><hr class="dropdown-divider"></li>
+    <li><a class="dropdown-item" target="_blank" href="www.instagram.com">Instagram</a></li>
+  </ul>
+</div>
+      </ul>
+
+    </div>
+    <div class="col-md text-md-right"></div>
+  </div>
+</div>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</body>
+</html>
